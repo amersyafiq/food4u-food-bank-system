@@ -1,0 +1,86 @@
+nav {
+    color: #DCDCDC;
+    font-size: 19px;
+
+    background-color: #2B322E;
+    width: 15vw;
+    padding: 2rem 1rem;
+
+    display: flex;
+    flex-direction: column;
+    row-gap: 2rem;
+
+    transition: width 0.3s ease-in-out;
+}
+
+.nav-1 {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-1 > img {
+    cursor: pointer;
+    width: 25px;
+    height: 25px;
+    filter: brightness(0) invert(1);
+}
+
+.nav-2 {
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+}
+
+.nav-2 > button {
+    background-color: transparent;
+    border-style: none;
+    text-align: start;
+
+    font-size: 16px; 
+    color: white;
+
+    display: flex;
+    align-items: center;
+    column-gap: 1rem;
+
+    padding: 0.75rem 1rem;
+
+    border-radius: 5px;
+    border-bottom-style: solid;
+    border-bottom-color: #ffffff20;
+
+    font-weight: 300;
+    cursor: pointer;
+}
+
+.nav-2 > button:hover {
+    background-color: rgba(255, 255, 255, 0.082);
+}
+
+.nav-2 > button.clicked {
+    background-color: rgba(255, 255, 255, 0.082);
+}
+
+.nav-2 > button > img {
+    width: 25px;
+    height: 25px;
+}
+
+@media only screen and (max-width: 1000px) {
+    nav { display: none; }
+    .nav-2 { display: none; }
+}
+
+.nav-toggle {
+    width: 3.5rem;
+    padding: 2rem 0rem;
+    align-items: center;
+}
+
+.nav-header {
+    display: flex;
+    filter: brightness(0%);
+    row-gap: 0;
+}
