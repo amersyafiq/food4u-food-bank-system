@@ -4,7 +4,7 @@
 
     define('USERNAME', "food4uprojects@gmail.com");
 
-    define('PASSWORD', "gtxc qalf ilfp vuba");
+    define('PASSWORD', "**** **** **** ****");
 
     define('SEND_FROM', "food4uprojects@gmail.com");
 
